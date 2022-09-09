@@ -71,6 +71,8 @@ public class ComponentController {
         columnAuthor.setCellValueFactory(new PropertyValueFactory<>("author"));
         columnYear.setCellValueFactory(new PropertyValueFactory<>("year"));
         columnPages.setCellValueFactory(new PropertyValueFactory<>("pages"));
+
+
     }
 
     public void button1Action(ActionEvent event) {
