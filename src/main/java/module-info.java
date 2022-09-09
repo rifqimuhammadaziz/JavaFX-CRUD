@@ -9,4 +9,6 @@ module com.rifqimuhammadaziz.javafxcrud {
     opens com.rifqimuhammadaziz.javafxcrud.controller;
     exports com.rifqimuhammadaziz.javafxcrud.controller;
     opens com.rifqimuhammadaziz.javafxcrud.models;
+
+    opens com.rifqimuhammadaziz.javafxcrud.controller.stage;
 }
